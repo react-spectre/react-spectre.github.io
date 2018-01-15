@@ -6,7 +6,7 @@
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://react-spectre.github.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest React Spectre news and events.</subtitle>
-    <logo>https://react-spectre.github.ioimg/docusaurus.svg</logo>
+    <logo>https://react-spectre.github.ionull</logo>
     <rights>Copyright © 2018-present React Spectre</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>

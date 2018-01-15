@@ -2,6 +2,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
+    "watch": "onchange '**/*.{js,md,json}' --exclude '{i18n,node_modules,build}/**/*' --initial --verbose -- ./node_modules/.bin/docusaurus-start",
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
@@ -9,6 +10,8 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.0.5"
-  }
+    "docusaurus": "^1.0.5",
+    "onchange": "^3.3.0"
+  },
+  "dependencies": {}
 }

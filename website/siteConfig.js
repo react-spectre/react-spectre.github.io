@@ -1,42 +1,28 @@
 /**
- * Copyright (c) 2017-present, Facebook, Inc.
+ * Copyright (c) 2018-present, React Spectre
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-/* List of projects/orgs using your project for the users page */
-const users = [
-  {
-    caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
-
 const siteConfig = {
   title: 'React Spectre',
-  tagline: 'React components for Spectre.css',
+  tagline: 'React components for [Spectre.css](https://picturepan2.github.io/spectre)',
   url: 'https://react-spectre.github.io',
   baseUrl: '/',
   organizationName: 'react-spectre',
   projectName: 'react-spectre.github.io',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'intro', label: 'Docs'},
   ],
-  users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: null,
+  footerIcon: 'img/react-spectre-logo.png',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#5759D6',
+    secondaryColor: '#505A6B',
   },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright: 'Copyright © 2018-present React Spectre',
